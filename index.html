@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/mp3.css">
+</head>
+
+<body>
+    <div class="player">
+        <div class="player-box">
+            <div class="player-media">
+                <img src="https://suckhoedoisong.qltns.mediacdn.vn/zoom/600_315/324455921873985536/2022/1/1/ho-phi-nal-2-1640978096561172459954-96-0-960-1382-crop-16409786538861206416872.jpg"
+                    alt="" class="player-image" />
+            </div>
+            <span class="song-title">Thay Lòng</span>
+            <div class="progress">
+                <div class="wrap-time">
+                    <input type="range" id="progress-bar" min="0" max="" value="0" class="bar" />
+                </div>
+                <audio src="./assets/music/thaylong.mp3" id="song"></audio>
+            </div>
+            <div class="player-number">
+                <span class="player-remaining">0:00</span>
+                <span class="player-duration">0:00</span>
+            </div>
+        </div>
+        <div class="player-tool">
+            <i class="fa fa-backward player-prev"></i>
+            <i class="fa fa-play player-play"></i>
+            <i class="fa fa-forward player-next"></i>
+            <i class="fa-solid fa-shuffle player-random"></i>
+        </div>
+        <div class="listsong">
+            <div class="song-item">
+                <img src="https://suckhoedoisong.qltns.mediacdn.vn/zoom/600_315/324455921873985536/2022/1/1/ho-phi-nal-2-1640978096561172459954-96-0-960-1382-crop-16409786538861206416872.jpg"
+                    alt="" class="singer-img">
+                <span class="songname">
+                    Thay Lòng
+                </span>
+            </div>
+            <div class="song-item">
+                <img src="https://i.ytimg.com/vi/HZi4eJXWZU0/maxresdefault.jpg" alt="" class="singer-img">
+                <span class="songname">
+                    Rồi tới luôn
+                </span>
+            </div>
+            <div class="song-item">
+                <img src="https://i.ytimg.com/vi/1mQwr_O81a4/maxresdefault.jpg" alt="" class="singer-img">
+                <span class="songname">
+                    Đám cưới nha
+                </span>
+            </div>
+            <div class="song-item">
+                <img src="https://i.ytimg.com/vi/K9Jh-e08emY/maxresdefault.jpg" alt="" class="singer-img">
+                <span class="songname">
+                    Muốn em là
+                </span>
+            </div>
+            <div class="song-item">
+                <img src="https://i1.sndcdn.com/artworks-8Jdb21Tn4eb4P53z-jppRqw-t500x500.jpg" alt="" class="singer-img">
+                <span class="songname">
+                    Sau lưng anh có ai kìa
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/mp3.js"></script>
+</body>
+
+</html>
